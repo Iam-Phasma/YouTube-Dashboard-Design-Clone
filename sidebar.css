@@ -1,0 +1,64 @@
+
+
+.sidebar-elements {
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2px;
+    cursor: pointer;
+    
+}
+
+.home-container {
+    margin-top: 10px !important;
+}
+.home-container, .explore-container, .subscription-container, .originals-container, .music-container, .library-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70px;
+}
+.home-container:hover, .explore-container:hover, .subscription-container:hover, .originals-container:hover, .music-container:hover, .library-container:hover {
+    
+    background-color: rgb(236, 236, 236);
+}
+
+.home-text, .explore-text, .subscription-text, .originals-text, .music-text, .library-text {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    
+}
+
+.home {
+    height: 24px;
+}
+
+.explore {
+    height: 24px;
+}
+
+.subscription {
+    height: 24px;
+}
+
+.originals {
+    height: 24px;
+}
+
+.music {
+    height: 24px;
+}
+
+.library {
+    height: 24px;
+}
